@@ -1,3 +1,16 @@
+//Global Variables
+//
+void setup() {}//End setup
+//
+void draw() {}//End draw
+//
+void keyPressed() {}//End keyPressed
+//
+void mousePressed() {}//
+//
+// What we will copy and paste from the Static Program
+/*
+
 println("Hello World");
 //println("You said Hello!");
 String firstSentence = "You said Hello!";
@@ -26,4 +39,10 @@ String one = "1";
 int two = 1;
 print(d+z+space+e+space+f+space+g+space+ten+y+space+h+space+one+z, "\n"); //Character Escapes, \n (NEW LINE), \t (TAB)
 println("\t\t\t", d+z, e, f, g, ten+y, h, int(one)+two+z); //Casting, making a String into a Number
-println( int(one)+two );
+println( int(one)+two ); //Casting is int(one), to change STRING to INTEGER
+//
+/*Note: the computer is adding ASCII Values
+ Period has an ASCII Value of 46
+ So, int(one)+two+z = 1 + 1 + 46
+ */
+ */
