@@ -32,7 +32,7 @@ void setup()
 //
 void draw() 
 {
-  two+=1; // two+1, two++, two+=1, two+=skipCount
+  two+=1; // two+1, two++, two+=1
   println(d+z, e, f, g, ten+y, h, str(two)+z);
 }//End draw
 //
