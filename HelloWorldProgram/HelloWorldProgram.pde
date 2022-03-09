@@ -9,6 +9,7 @@ String ten;
 String h;
 String one;
 int two;
+int skipCount=2;
 //
 void setup() 
 {
@@ -31,7 +32,7 @@ void setup()
 //
 void draw() 
 {
-  two = two + 1; // two+1
+  two+=1; // two+1, two++, two+=1, two+=skipCount
   println(d+z, e, f, g, ten+y, h, str(two)+z);
 }//End draw
 //
