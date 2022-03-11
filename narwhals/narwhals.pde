@@ -1,6 +1,6 @@
 //Global Variables
 char z, y, space;
-String d, e, f, g, j, k, n, l, m, c, t, a, q, r, w, v, u;
+String d, e, f, g, j, k, n, l, m, c, t, a, q, r, w, v, u, b;
 int one, eight, seven, zero, skipCount=2, million;
 float ten;
 //
@@ -16,6 +16,7 @@ void setup()
   w = "$";
   v = ":";
   u = "+";
+  b = "~";
   d = "In";
   e = "which";
   f = "Narwhals";
@@ -32,43 +33,37 @@ void setup()
   eight = 8;
   seven = 7;
   zero = 0;
-
-  println( + + + + + + + +eight+eight+eight+eight+eight+y);
-  println(c+q+r+ + + +t+t+t+eight+c+w+seven+c+zero+zero+c);
-  println( + +v+zero+q+eight+zero+eight+t+eight+c+c+a+u+r+r+a+c+eight+zero+c);
-  println( + + + +r+a+c+c+w+c+seven+w+c+zero+c+c+c+a+r+a+c+zero+eight+c+w);
-  println(     07=ZIZIZZZZ07ZI=IZ00Z0);
-  println(       ZI7I==?IIIZ7Z777+?$0007);
-  println(        Z$I+?=:=?II$77$ZII7Z$0Z);
-  println(         ?$Z77I===??II7$$III=I$0);
-  println(           7$$I+=====++++$I?+II$0Z);
-  println(            0I+=I+=:~====+II+7+7+?Z8);
-  println(             0$==7=::~=====+IIIIII$Z0);
-  println(              ?7=?Z07+====+??+7IIIIIIIZ0);
-  println(              =II78Z II$7I=??I77?I$Z0);
-  println(              $ZZ8$     +7$$II7I7$7$8);
-  println(              :88I         $Z7I7I77Z8);
-  println(                             IZ77$$Z0);
-  println(                              7Z$$$$I);
-  println(                               Z7$Z0);
-  println(                               0ZZZ7);
-  println(                               Z$$8);
-  println(                              :ZZ8);
-  println(                          88800080);
-  println(                            8DD88Z);
-  println(                               $808);
-  println(                                 Z8Z);
-  println(d, e, f, g, str(one), j, n, l, m+z);
 }
 //
 void draw()
 {
-  one*=skipCount;
-  println(d, e, f, g, str(one), k, n, l, m+z);
-  million/=skipCount;
-  println(d, e, f, g, str(one), k, n, l, m+z);
-  ten/=skipCount;
-  println(d, e, f, g, str(one), k, n, l, m+z);
+  println(space+space+space+space+space+space+space+space+eight+eight+eight+eight+eight+y);
+  println(c+q+r+space+space+space+t+t+t+eight+c+w+seven+c+zero+zero+c);
+  println(space+space+v+zero+q+eight+zero+eight+t+eight+c+c+a+u+r+r+a+c+eight+zero+c);
+  println(space+space+space+space+r+a+c+c+w+c+seven+w+c+zero+c+c+c+a+r+a+c+zero+eight+c+w);
+  println(space+space+space+space+space+zero+seven+r+c+a+c+a+c+c+c+c+zero+seven+c+a+r+a+c+zero+zero+c+zero);
+  println(space+space+space+space+space+space+space+c+a+seven+a+r+r+q+a+a+a+c+seven+c+seven+seven+seven+u+q+w+zero+zero+zero+seven);
+  println(space+space+space+space+space+space+space+space+c+w+a+u+q+r+v+r+q+a+a+w+seven+seven+w+c+a+a+seven+c+w+zero+c);
+  println(space+space+space+space+space+space+space+space+space+q+w+c+seven+seven+a+r+r+r+q+q+a+a+seven+w+w+a+a+a+r+a+w+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+seven+w+w+a+u+r+r+r+r+r+u+u+u+u+w+a+q+u+a+a+w+zero+c);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+zero+a+u+r+a+u+r+v+v+b+r+r+r+r+u+a+a+u+seven+u+seven+u+q+c+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+zero+w+r+r+seven+r+v+v+b+r+r+r+r+r+u+a+a+a+a+a+a+w+c+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+q+seven+r+q+c+zero+seven+r+r+r+r+u+q+q+u+seven+a+a+a+a+a+a+a+c+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+r+a+a+seven+eight+c+space+a+a+w+seven+a+r+q+q+a+seven+seven+q+a+w+c+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+w+c+c+eight+w+space+space+space+space+space+u+seven+w+w+a+a+seven+a+seven+w+seven+w+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+v+eight+eight+a+space+space+space+space+space+space+space+space+space+w+c+seven+a+seven+a+c+c+c+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+a+c+seven+seven+w+w+c+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+seven+c+w+w+w+w+a);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+c+seven+w+c+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+zero+c+c+c+seven);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+c+w+w+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+v+c+c+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+eight+eight+eight+zero+zero+zero+eight+zero);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+eight+t+t+eight+eight+c);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+w+eight+zero+eight);
+  println(space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+space+c+eight+c);
+  println(d, e, f, g, str(one), j, n, l, m+z);
+  noLoop();
 }//End draw
 //
 void keyPressed() {
