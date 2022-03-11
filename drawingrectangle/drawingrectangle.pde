@@ -1,4 +1,5 @@
 // Continue Drawing a rectangle as v3
+//Put fill() before rectangle, it will put a color in a rectangle
 
 size(700, 500); //Display Geometry (Orientations): Square, Landscape, Portrait
 //fullScreen(); //displayWidth, displayHeight
