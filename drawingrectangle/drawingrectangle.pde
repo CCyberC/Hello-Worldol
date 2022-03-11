@@ -1,3 +1,5 @@
+// Continue Drawing a rectangle as v3
+
 size(700, 500); //Display Geometry (Orientations): Square, Landscape, Portrait
 //fullScreen(); //displayWidth, displayHeight
 println("Canvas Size", width, height);
