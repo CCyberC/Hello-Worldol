@@ -5,7 +5,7 @@ println("Display", "width: ", displayWidth, " height: ", displayHeight);
 int x = width*1/4, y = height*1/4, rectWidth = width*1/2, rectHeight = height*1/2;
 int strokeReset=1;
 int thin=width*1/50, thick=2*thin;
-color yellow, purple, whiteReset, blackReset;
+color yellow=#FFFCA5, purple=#8241BC, whiteReset=#FFFFFF, blackReset=#000000;
 // Background as gray scale, 0-255 (notice 256 #'s)
 background(50);//puts colors, use RGB
 // New Background Function "covers" old gray scale background()
