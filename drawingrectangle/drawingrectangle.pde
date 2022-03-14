@@ -16,7 +16,7 @@ background(50);//puts colors, use RGB
 // New Background Function "covers" old gray scale background()
 // Background as colour, RGB, random(a,b)
 // Night Mode means backgorund cannot have blue // change random for NightMode
-if () //NightMode Choices
+if (nightMode==true) //NightMode Choices
 {
   backgroundBlue=0;
   strokeColour = yellowNightMode;
