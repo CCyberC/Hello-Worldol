@@ -4,7 +4,8 @@ Boolean ahhh=false;
 //
 void setup() 
 {
-  size(700, 500);
+  fullScreen();
+  //size(700, 500);
 }//End setup
 //
 void draw() 

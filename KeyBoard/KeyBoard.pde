@@ -3,8 +3,8 @@ Boolean nightMode=false;
 //
 void setup() 
 {
-  size(700, 500);
-  //fullscreen()
+  fullScreen();
+  //size(700, 500);
   //size()
 }//End setup
 //
